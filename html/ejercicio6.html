@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ejercicio #6 </title>
+</head>
+<body style="text-align: center;">
+    <div id="positionDisplay">Posicion del raton: X:0, Y:0</div>
+    <script>
+
+        const positionDisplay=document.getElementById('positionDisplay');
+
+        window.addEventListener('mousemove', (event)=>{
+
+            const x=event.clientX;
+            const y=event.clientY;
+
+            positionDisplay.textContent=`Posicion del raton: X: ${x}, Y:${y}`;
+        });
+    </script>
+</body>
+</html>

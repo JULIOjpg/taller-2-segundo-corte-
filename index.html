@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000, #2366da);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .link {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .link:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .link-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Menú Principal</h1>
+        <div class="link-grid">
+            <a href="html/ejercicio1.html" class="link">
+                <div class=""></div>
+                ejercicio1 1
+            </a>
+            <a href="html/ejercicio2.html" class="link">
+                <div class="link-icon"></div>
+                ejercicio2
+            </a>
+            <a href="html/ejercicio3.html" class="link">
+                <div class="link-icon"></div>
+                ejercicio3
+            </a>
+            <a href="html/ejercicio4.html" class="link">
+                <div class="link-icon"></div>
+                ejercicio4
+            </a>
+            <a href="html/ejercicio5.html" class="link">
+                <div class="link-icon"></div>
+                ejercicio5
+            </a>
+            <a href="html/ejercicio6.html" class="link">
+                <div class="link-icon"></div>
+                ejercicio6
+            </a>
+            <a href="html/ejercicio7.html" class="link">
+                <div class="link-icon"></div>
+                ejercicio7
+            </a>
+        </div>
+    </div>
+</body>
+</html>
